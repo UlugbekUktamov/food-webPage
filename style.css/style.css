@@ -1,0 +1,154 @@
+/* DESKTOP HEADER LIGHT SECTION */
+
+.desktop-header-light {
+  position: relative;
+}
+
+.desktop-navbar .left {
+  display: flex;
+}
+
+.desktop-navbar .left li {
+  margin-right: 50px;
+}
+
+.desktop-navbar .left li:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.desktop-header-light1 {
+  background: url("/image/Rectangle\ 48.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  width: 100%;
+  height: 84.5vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.desktop-header-light1 p:first-child {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.desktop-header-light1 h1 {
+  color: #fff;
+}
+
+.desktop-header-light p:nth-child(3) {
+  color: #c4c1c1;
+  padding: 10px 0;
+}
+
+.desktop-header-light1 .buttons button {
+  border: none;
+  outline: none;
+  padding: 7px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.desktop-header-light1 .buttons .first {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.desktop-header-light .buttons .second {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #fff;
+}
+
+.desktop-header-light .images {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 400px;
+  left: 28%;
+}
+
+.desktop-header-light .images img {
+  width: 80%;
+}
+
+.both {
+  clear: both;
+}
+
+.desktop-header-light .images .first {
+  margin-top: -70px;
+}
+
+.desktop-header-light .images .second {
+  margin-left: -300px;
+}
+
+.hr {
+  margin: 400px auto 30px;
+  width: 700px;
+  font-weight: 600;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* CONTENTS SECTION */
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -200px;
+}
+
+.content .right p:first-child {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.content .right p:nth-child(3) {
+  color: #888585;
+}
+
+.content2 {
+  justify-content: space-evenly;
+  margin-left: 200px;
+}
+
+.content3 {
+  margin-bottom: 50px;
+}
+
+/* FOOTER SECTION  */
+
+.desktop-header-light2 {
+  background-image: url("/image/Rectangle\ 47.png");
+}
+
+.desktop-header-light2 p {
+  color: #fff;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.desktop-header-light2 .buttons button:nth-child(2) {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+
+.desktop-navbar .icons li {
+  font-size: 23px;
+  margin-left: -15px;
+  color: var(--primary-color);
+}
+
+.desktop-navbar .icons li:hover {
+  transform: scale(1.2);
+}
