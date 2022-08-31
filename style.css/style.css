@@ -152,3 +152,150 @@ h3 {
 .desktop-navbar .icons li:hover {
   transform: scale(1.2);
 }
+
+.icon {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .desktop-header-light .desktop-navbar .left {
+    flex-direction: column;
+    gap: 0.4rem;
+    position: absolute;
+    visibility: hidden;
+    gap: 2rem;
+    right: 0;
+    top: 0rem;
+    opacity: 0;
+    background-color: #fff;
+    height: 60vh;
+    padding: 3rem 0 0 4rem;
+    transition: all 0.5s ease;
+  }
+
+  .desktop-header-light .desktop-navbar .left.active {
+    opacity: 1;
+    top: 4rem;
+    transition: all 0.5s ease;
+    visibility: visible;
+  }
+
+  .desktop-header-light p:nth-child(3) {
+    font-size: 0.8rem;
+  }
+
+  .icon {
+    display: block;
+    font-size: 1.6rem;
+  }
+
+  .desktop-navbar .right img {
+    width: 10rem;
+  }
+
+  .desktop-header-light1 h1 {
+    font-size: 1.4rem;
+  }
+
+  .hr {
+    margin: 215px auto 30px;
+  }
+
+  .content1 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .content1 .left .image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content1 .right h2 {
+    font-size: 1rem;
+  }
+
+  .content1 .left .image img {
+    width: 100%;
+  }
+
+  .content1 .right p:nth-child(3) {
+    margin-bottom: 10rem;
+  }
+
+  .content2 {
+    flex-direction: column;
+    height: auto;
+    margin-left: 2rem;
+    margin-top: 10rem;
+  }
+
+  .content2 .right h2 {
+    font-size: 1rem;
+  }
+
+  .content2 .left .image img {
+    width: 100%;
+  }
+
+  .content2 .left .image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content3 {
+    margin-top: 10rem;
+    flex-direction: column;
+  }
+
+  .content3 .left .image img {
+    width: 100%;
+  }
+
+  .content3 .left .image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content3 .right {
+    margin-left: 1rem;
+  }
+
+  .content3 .right h2 {
+    font-size: 1rem;
+  }
+
+  .content3 .right p {
+    font-size: 0.8rem;
+  }
+
+  .desktop-header-light2 h1 {
+    font-size: 1rem;
+  }
+
+  .desktop-header-light2 p {
+    font-size: 1rem;
+  }
+
+  footer .desktop-navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  footer .desktop-navbar .left {
+    margin-left: 5rem;
+  }
+
+  footer .desktop-navbar .text {
+    margin-left: 2rem;
+  }
+}
